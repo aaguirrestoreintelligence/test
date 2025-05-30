@@ -4,7 +4,6 @@ import random
 import numpy as np
 import pandas as pd
 
-from functions import *
 
 st.set_page_config(layout="wide")
 
