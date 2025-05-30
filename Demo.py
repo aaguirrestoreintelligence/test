@@ -244,32 +244,32 @@ if "last_updated" not in st.session_state:
 if st.session_state.page == 0:
     st.markdown(f"""
     <div class="rectangle_multiple">
+    <div class="cell" style="">{individual_cell_for_6_pack(0)}</div>
     <div class="cell" style="">{individual_cell_for_6_pack(1)}</div>
     <div class="cell" style="">{individual_cell_for_6_pack(2)}</div>
     <div class="cell" style="">{individual_cell_for_6_pack(3)}</div>
     <div class="cell" style="">{individual_cell_for_6_pack(4)}</div>
     <div class="cell" style="">{individual_cell_for_6_pack(5)}</div>
-    <div class="cell" style="">{individual_cell_for_6_pack(6)}</div>
     </div>
         """,unsafe_allow_html=True)
 
 elif st.session_state.page == 1:
-    individual_card(color_left_side_card,1, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,0, azul_Oscuro,Dark_Indigo)
 
 elif st.session_state.page == 2:
-    individual_card(color_left_side_card,2, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,1, azul_Oscuro,Dark_Indigo)
 
 elif st.session_state.page == 3:
-    individual_card(color_left_side_card,3, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,2, azul_Oscuro,Dark_Indigo)
 
 elif st.session_state.page == 4:
-    individual_card(color_left_side_card,4, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,3, azul_Oscuro,Dark_Indigo)
 
 elif st.session_state.page == 5:
-    individual_card(color_left_side_card,5, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,4, azul_Oscuro,Dark_Indigo)
 
 elif st.session_state.page == 6:
-    individual_card(color_left_side_card,6, azul_Oscuro,Dark_Indigo)
+    individual_card(color_left_side_card,5, azul_Oscuro,Dark_Indigo)
 
 
 while changed_page:
