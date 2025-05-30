@@ -43,8 +43,9 @@ time_seconds_change = 25
 # Inject CSS using markdown
 st.markdown(f"""
     <style>
-    div .stMain, .stAppHeader {{
+    div .stMain, .stAppHeader, .st-emotion-cache-vlxhtx {{
             background-color: {color_background} !important;
+            gap: 0rem !important;
         }}
     </style>
 """, unsafe_allow_html=True)
