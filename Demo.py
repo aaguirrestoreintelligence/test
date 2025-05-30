@@ -43,13 +43,19 @@ time_seconds_change = 25
 # Inject CSS using markdown
 st.markdown(f"""
     <style>
-    div .stMain, .stAppHeader, .st-emotion-cache-vlxhtx {{
+    div .stMain, .stAppHeader,  {{
             background-color: {color_background} !important;
-            gap: 0rem !important;
         }}
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown(f"""
+    <style>
+    div .st-emotion-cache-vlxhtx {{
+            gap: 0rem !important;
+        }}
+    </style>
+""", unsafe_allow_html=True)
 
 def individual_card(color_left_side_card, number_data, color_left=azul_Oscuro,background_color_right=Dark_Indigo):
     st.markdown(f"""<style>
