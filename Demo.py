@@ -43,7 +43,7 @@ time_seconds_change = 25
 # Inject CSS using markdown
 st.markdown(f"""
     <style>
-    div .stMain, .stAppHeader,  {{
+    div .stMain, .stAppHeader {{
             background-color: {color_background} !important;
         }}
     </style>
